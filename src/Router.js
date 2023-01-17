@@ -18,7 +18,6 @@ function Router() {
       path: "/editUser/:id",
       element: <EditUser />,
     },
-   
   ]);
 
   return element;

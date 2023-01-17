@@ -71,7 +71,7 @@ export const getSingalUser = (id) => {
 export const updateUser = (user, id) => {
   return function (dispatch) {
     axios
-      .put(`${process.env.REACT_APP_API}/${id}`,user)
+      .put(`${process.env.REACT_APP_API}/${id}`, user)
       .then((res) => {
         console.log("res", res);
         dispatch(userUpadate());

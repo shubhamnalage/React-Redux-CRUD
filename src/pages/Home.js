@@ -109,7 +109,12 @@ export default function Home() {
                     >
                       Delete
                     </Button>
-                    <Button color="primary" onClick={()=>navigate(`/editUser/${row.id}`)}>Edit</Button>
+                    <Button
+                      color="primary"
+                      onClick={() => navigate(`/editUser/${row.id}`)}
+                    >
+                      Edit
+                    </Button>
                   </ButtonGroup>
                 </StyledTableRow>
               ))}
