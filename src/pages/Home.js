@@ -75,7 +75,7 @@ export default function Home() {
         <Table sx={{ minWidth: 700 }} aria-label="customized table">
           <TableHead>
             <TableRow>
-              <StyledTableCell align="left">name</StyledTableCell>
+              <StyledTableCell align="left">Name</StyledTableCell>
               <StyledTableCell align="left">Email</StyledTableCell>
               <StyledTableCell align="center">Contact</StyledTableCell>
               <StyledTableCell align="center">Address</StyledTableCell>
