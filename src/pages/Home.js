@@ -64,6 +64,7 @@ export default function Home() {
     <div>
       <div>
         <Button
+          style={{ float: "right", margin: "1rem" }}
           variant="contained"
           color="primary"
           onClick={() => navigate("/addUser")}
@@ -104,12 +105,13 @@ export default function Home() {
                   >
                     <Button
                       color="secondary"
-                      style={{ marginRight: "5px" }}
+                      style={{ marginRight: "5px", marginTop: "5px" }}
                       onClick={() => handleDelete(row.id)}
                     >
                       Delete
                     </Button>
                     <Button
+                      style={{ marginTop: "5px" }}
                       color="primary"
                       onClick={() => navigate(`/editUser/${row.id}`)}
                     >
