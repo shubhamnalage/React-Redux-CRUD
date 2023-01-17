@@ -1,0 +1,25 @@
+{
+  "user": [
+    {
+      "name": "Kunal Patil",
+      "address": "Pune",
+      "email": "kunal@gmail.com",
+      "contact": "9325343401",
+      "id": 2
+    },
+    {
+      "name": "sai",
+      "address": "Banglore",
+      "email": "sai@gmail.com",
+      "contact": "9325343402",
+      "id": 3
+    },
+    {
+      "name": "Shubham",
+      "email": "shubham929231@gmail.com",
+      "contact": "9325343400",
+      "address": "Kolhapur",
+      "id": 4
+    }
+  ]
+}
